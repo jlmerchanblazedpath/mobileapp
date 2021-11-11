@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "systemName": "MyDataBase",
+      "action": "mock",
+      "mockInitialization": {
+        "records": [
+          {
+            "rdsTableName": "Customers",
+            "id": 1,
+            "name": "Yale",
+            "surname": "Thompkins",
+            "email": "ythompkins@bussinsider.com"
+          },
+          {
+            "rdsTableName": "Customers",
+            "id": 2,
+            "name": "Nettle",
+            "surname": "Moss",
+            "email": "nmoss@nymag.com"
+          },
+          {
+            "rdsTableName": "Customers",
+            "id": 3,
+            "name": "Simeon",
+            "surname": "Henrych",
+            "email": "shenrych@artister.com"
+          }
+        ]
+      }
+    }
+  ]
+}

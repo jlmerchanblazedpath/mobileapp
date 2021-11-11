@@ -1,0 +1,32 @@
+{
+  "systems": [
+    {
+      "name": "MyDataBase",
+      "type": "RelationalDatabase",
+      "x": 796,
+      "y": 217
+    },
+    {
+      "name": "MyMicroservice",
+      "type": "Microservice",
+      "x": 540,
+      "y": 218
+    },
+    {
+      "name": "MyMobileApp",
+      "type": "MobileApp",
+      "x": 276,
+      "y": 218
+    }
+  ],
+  "references": [
+    {
+      "fromSystemName": "MyMicroservice",
+      "toSystemName": "MyDataBase"
+    },
+    {
+      "fromSystemName": "MyMobileApp",
+      "toSystemName": "MyMicroservice"
+    }
+  ]
+}
